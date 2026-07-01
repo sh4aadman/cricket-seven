@@ -7,3 +7,9 @@ body {
   max-width: 85%;
   margin: 2% auto 0;
 }
+
+.select {
+  background-color: #E7FE29;
+  color: #131313;
+  font-weight: bold;
+}
