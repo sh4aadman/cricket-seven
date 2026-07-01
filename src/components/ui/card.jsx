@@ -2,7 +2,7 @@ import playerImg from "../../assets/player.jpg";
 
 function Card() {
   return (
-    <section className="p-6 border rounded-xl">
+    <section className="p-6 border border-[#1313131A] rounded-xl">
       <figure>
         <img
           className="rounded-xl aspect-3/2 object-cover"

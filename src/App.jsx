@@ -2,6 +2,7 @@ import CardContainer from "./components/ui/cardContainer"
 import Hero from "./components/ui/hero"
 import Navbar from "./components/ui/navbar"
 import Selection from "./components/ui/selection"
+import TileContainer from "./components/ui/tileContainer"
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
       <Hero />
       <Selection />
       <CardContainer />
+      <TileContainer />
     </>
   )
 }

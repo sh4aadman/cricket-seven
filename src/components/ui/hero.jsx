@@ -12,7 +12,7 @@ function Hero() {
           Beyond Boundaries Beyond Limits
         </p>
       </section>
-      <button className="px-5 py-3.5 border rounded-2xl outline-1 outline-offset-4 outline-[#E7FE29] font-bold text-[#131313] bg-[#E7FE29]">
+      <button className="px-5 py-3.5 border border-[#E7FE29] rounded-2xl outline-1 outline-offset-4 outline-[#E7FE29] font-bold text-[#131313] bg-[#E7FE29]">
         Claim Free Credit
       </button>
     </section>
