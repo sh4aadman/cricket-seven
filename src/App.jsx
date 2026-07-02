@@ -1,3 +1,4 @@
+import CallToAction from "./components/ui/callToAction";
 import CardContainer from "./components/ui/cardContainer";
 import Footer from "./components/ui/footer";
 import Hero from "./components/ui/hero";
@@ -15,6 +16,7 @@ function App() {
         <CardContainer />
         <TileContainer />
       </section>
+      <CallToAction />
       <Footer />
     </>
   );

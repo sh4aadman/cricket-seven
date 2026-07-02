@@ -2,7 +2,7 @@ import Tile from "./tile";
 
 function TileContainer() {
   return (
-    <section className="mt-8 mb-64 space-y-6">
+    <section className="mt-8 space-y-6">
       <Tile />
       <Tile />
       <Tile />
