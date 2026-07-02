@@ -4,12 +4,15 @@
 body {
   font-family: "Sora", sans-serif;
   font-optical-sizing: auto;
+}
+
+.container {
   max-width: 85%;
   margin: 2% auto 0;
 }
 
 .select {
-  background-color: #E7FE29;
+  background-color: #e7fe29;
   color: #131313;
   font-weight: bold;
 }
