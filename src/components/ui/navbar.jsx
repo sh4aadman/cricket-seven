@@ -3,9 +3,9 @@ import logo from "../../assets/logo.png";
 function Navbar({ balance }) {
   return (
     <nav className="flex justify-between">
-      <img className="w-[20%] md:w-[5%]" src={logo} alt="logo" />
+      <img className="w-[20%] md:w-[10%] lg:w-[5%]" src={logo} alt="logo" />
       <section className="flex items-center gap-14">
-        <ul className="hidden md:flex gap-14 text-[#131313] text-lg opacity-70">
+        <ul className="hidden lg:flex gap-14 text-[#131313] text-lg opacity-70">
           <li>
             <a href="#Home">Home</a>
           </li>
