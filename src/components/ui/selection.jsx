@@ -10,13 +10,13 @@ function Selection({ value, setValue, selectedPlayers }) {
         <div className="flex items-center">
           <button
             onClick={() => setValue(true)}
-            className={`px-7 py-3.5 border rounded-l-2xl border-r-0 ${value === true ? "bg-[#e7fe29] border-[#e7fe29]" : "border-[#1313131A]"}`}
+            className={`px-7 py-3.5 border rounded-l-2xl border-r-0 ${value === true ? "bg-[#e7fe29] border-[#e7fe29] font-bold" : "border-[#1313131A]"}`}
           >
             Available
           </button>
           <button
             onClick={() => setValue(false)}
-            className={`px-7 py-3.5 border border-l-0 rounded-r-2xl ${value === false ? "bg-[#e7fe29] border-[#e7fe29]" : "border-[#1313131A]"}`}
+            className={`px-7 py-3.5 border border-l-0 rounded-r-2xl ${value === false ? "bg-[#e7fe29] border-[#e7fe29] font-bold" : "border-[#1313131A]"}`}
           >
             Selected ({selectedPlayers})
           </button>

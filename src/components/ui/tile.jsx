@@ -1,5 +1,9 @@
-function Tile({ player }) {
+function Tile({ player, remove }) {
   const { playerImg, playerName, preferredHand } = player;
+
+  const handleRemove = () => {
+    remove(player);
+  }
 
   return (
     <section className="p-6 border border-[#1313131A] rounded-xl flex gap-6 items-center">
@@ -14,7 +18,7 @@ function Tile({ player }) {
         <h3 className="text-2xl font-semibold text-[#131313]">{playerName}</h3>
         <p className="mt-3 text-[#13131399]">{preferredHand}</p>
       </section>
-      <button>
+      <button onClick={handleRemove}>
         <i className="fa-regular fa-trash-can text-[#F14749]"></i>
       </button>
     </section>

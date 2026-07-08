@@ -14,6 +14,12 @@ function App() {
   const [balance, setBalance] = useState(1500000);
   const [selection, setSelection] = useState([]);
 
+  const remove = (p) => {
+    const remaining = selection.filter((each) => each.playerId !== p.playerId);
+    setSelection(remaining);
+    setBalance(balance + p.price);
+  };
+
   return (
     <>
       <section className="container">
@@ -34,7 +40,7 @@ function App() {
               setSelection={setSelection}
             />
           ) : (
-            <TileContainer selection={selection} />
+            <TileContainer setValue={setValue} selection={selection} remove={remove} />
           )}
         </Suspense>
       </section>
