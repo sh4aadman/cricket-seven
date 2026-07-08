@@ -32,7 +32,7 @@ function Footer() {
               Subscribe to our newsletter for the latest updates.
             </p>
             <div className="mt-5 flex">
-              <input className="grow py-3.5 pl-7 bg-[#FFFFFF] rounded-l-lg focus:outline-0 placeholder:text-[#13131366]" type="text" name="email" id="subscribe" placeholder="Enter your email" />
+              <input className="grow py-3.5 pl-7 bg-[#FFFFFF] rounded-l-lg focus:outline-0 placeholder:text-[#13131366]" type="text" name="email" id="notify" placeholder="Enter your email" autoComplete="email" />
               <button className="shrink px-7 py-3.5 font-bold text-[#040D11] bg-linear-to-r from-[#e498c4] to-[#f3c84f] rounded-r-lg">Subscribe</button>
             </div>
           </div>
