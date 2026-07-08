@@ -12,12 +12,6 @@ body {
   margin: 2% auto 0;
 }
 
-.select {
-  background-color: #e7fe29;
-  color: #131313;
-  font-weight: bold;
-}
-
 .blur-shadow {
   box-shadow:
     0 0 32px 12px rgba(248, 241, 241, 0.3)
