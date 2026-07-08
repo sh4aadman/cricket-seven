@@ -1,8 +1,8 @@
 function Selection({ value, setValue, selectedPlayers }) {
   return (
     <>
-      <section className="mt-24 flex items-center justify-between">
-        <h2 className="text-3xl font-bold">
+      <section className="mt-10 md:mt-24 flex flex-col gap-4 md:flex-row items-center justify-between">
+        <h2 className="text-lg md:text-3xl font-bold">
           {value === true
             ? "Available Players"
             : `Selected Players (${selectedPlayers}/7)`}

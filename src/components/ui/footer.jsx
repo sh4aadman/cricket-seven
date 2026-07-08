@@ -3,11 +3,11 @@ import logo from "../../assets/logo-footer.png";
 function Footer() {
   return (
     <section className="bg-[#06091A]">
-      <section className="pt-60 px-52 pb-16 flex flex-col items-center gap-16">
+      <section className="pt-10 md:pt-60 px-2 md:px-52 pb-10 md:pb-16 flex flex-col items-center gap-16">
         <figure>
           <img src={logo} alt="logo" />
         </figure>
-        <nav className="grid grid-cols-3 gap-48 justify-center justify-items-center">
+        <nav className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-48 md:justify-center md:justify-items-center">
           <div>
             <h5 className="text-lg font-semibold text-[#FFFFFF]">About Us</h5>
             <p className="mt-4 text-[#FFFFFF99] leading-6.5">
@@ -19,7 +19,7 @@ function Footer() {
             <h5 className="text-lg font-semibold text-[#FFFFFF]">
               Quick Links
             </h5>
-            <ul className="mt-4 text-[#FFFFFF99] leading-6.5 list-disc list-inside">
+            <ul className="mt-2 space-y-2 md:mt-4 text-[#FFFFFF99] leading-6.5 md:list-disc list-inside">
               <li>Home</li>
               <li>Services</li>
               <li>About</li>

@@ -22,7 +22,7 @@ function App() {
 
   return (
     <>
-      <section className="container">
+      <section className="w-5/6 mx-auto mt-5">
         <Navbar balance={balance} />
         <Hero />
         <Suspense fallback={<Loading />}>

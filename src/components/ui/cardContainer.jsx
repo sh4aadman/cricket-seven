@@ -5,7 +5,7 @@ function CardContainer({ playersPromise, balance, setBalance, selection, setSele
   const players = use(playersPromise);
 
   return (
-    <section className="mt-8 grid grid-cols-3 gap-10">
+    <section className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-10">
       {players.map((player) => (
         <Card
           key={player.playerId}

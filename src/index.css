@@ -7,12 +7,14 @@ body {
   font-optical-sizing: auto;
 }
 
-.container {
-  max-width: 85%;
-  margin: 2% auto 0;
-}
-
 .blur-shadow {
   box-shadow:
     0 0 32px 12px rgba(248, 241, 241, 0.3)
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    max-width: 100%;
+    margin: 0;
+  }
 }

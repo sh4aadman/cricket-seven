@@ -23,7 +23,7 @@ function Card({ player, balance, setBalance, selection, setSelection }) {
   };
 
   return (
-    <section className="p-6 border border-[#1313131A] rounded-xl">
+    <section className="p-6 border border-[#1313131A] rounded-xl shadow-lg">
       <figure>
         <img
           className="w-full rounded-xl aspect-3/2 object-cover"
@@ -35,7 +35,7 @@ function Card({ player, balance, setBalance, selection, setSelection }) {
         <i className="fa-brands fa-osi"></i>
         <h3>{playerName}</h3>
       </section>
-      <section className="my-4 flex justify-between items-center">
+      <section className="my-4 flex flex-col gap-3 md:flex-row md:justify-between md:items-center">
         <div className="text-[#13131380] flex items-center gap-3">
           <i className="fa-solid fa-flag"></i>
           <h5>{playerCountry}</h5>
@@ -54,7 +54,7 @@ function Card({ player, balance, setBalance, selection, setSelection }) {
           <h4 className="font-bold">Preferred Hand</h4>
           <p className="text-[#13131380]">{preferredHand}</p>
         </div>
-        <div className="flex justify-between">
+        <div className="flex flex-col gap-3 md:flex-row md:justify-between">
           <h4 className="font-bold">Price: ${price} USD</h4>
           <button
             disabled={isTrue}
