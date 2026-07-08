@@ -1,0 +1,122 @@
+[
+  {
+    "playerId": 0,
+    "playerImg": "https://i.ibb.co.com/WNFNCFtL/shakib-Al-Hasan.jpg",
+    "playerName": "Shakib Al Hasan",
+    "playerCountry": "Bangladesh",
+    "playingRole": "All-rounder",
+    "rating": 5.0,
+    "preferredHand": "Left-hand",
+    "price": 185000
+  },
+  {
+    "playerId": 1,
+    "playerImg": "https://i.ibb.co.com/gCL1STL/Tamim-iqbal.jpg",
+    "playerName": "Tamim Iqbal",
+    "playerCountry": "Bangladesh",
+    "playingRole": "Batsman",
+    "rating": 4.8,
+    "preferredHand": "Left-hand",
+    "price": 165000
+  },
+  {
+    "playerId": 2,
+    "playerImg": "https://i.ibb.co.com/4wVyj6XB/liton-das.jpg",
+    "playerName": "Liton Das",
+    "playerCountry": "Bangladesh",
+    "playingRole": "Wicketkeeper-Batsman",
+    "rating": 4.7,
+    "preferredHand": "Right-hand",
+    "price": 145000
+  },
+  {
+    "playerId": 3,
+    "playerImg": "https://i.ibb.co.com/cS924ZTp/mustafizur.webp",
+    "playerName": "Mustafizur Rahman",
+    "playerCountry": "Bangladesh",
+    "playingRole": "Bowler",
+    "rating": 4.9,
+    "preferredHand": "Left-hand",
+    "price": 175000
+  },
+  {
+    "playerId": 4,
+    "playerImg": "https://i.ibb.co.com/sv7Nptpy/mahmudullah.jpg",
+    "playerName": "Mahmudullah Riyad",
+    "playerCountry": "Bangladesh",
+    "playingRole": "All-rounder",
+    "rating": 4.6,
+    "preferredHand": "Right-hand",
+    "price": 130000
+  },
+  {
+    "playerId": 5,
+    "playerImg": "https://i.ibb.co.com/VWXx9Lf5/rishad.jpg",
+    "playerName": "Rishad Hossain",
+    "playerCountry": "Bangladesh",
+    "playingRole": "Bowler",
+    "rating": 4.4,
+    "preferredHand": "Right-hand",
+    "price": 95000
+  },
+  {
+    "playerId": 6,
+    "playerImg": "https://i.ibb.co.com/LDTHT0VL/andre-russell.jpg",
+    "playerName": "Andre Russell",
+    "playerCountry": "West Indies",
+    "playingRole": "All-rounder",
+    "rating": 5.0,
+    "preferredHand": "Right-hand",
+    "price": 220000
+  },
+  {
+    "playerId": 7,
+    "playerImg": "https://i.ibb.co.com/xqKr9f5B/david-miller.jpg",
+    "playerName": "David Miller",
+    "playerCountry": "South Africa",
+    "playingRole": "Batsman",
+    "rating": 4.8,
+    "preferredHand": "Left-hand",
+    "price": 200000
+  },
+  {
+    "playerId": 8,
+    "playerImg": "https://i.ibb.co.com/67K51vYK/rashid.png",
+    "playerName": "Rashid Khan",
+    "playerCountry": "Afghanistan",
+    "playingRole": "Bowler",
+    "rating": 5.0,
+    "preferredHand": "Right-hand",
+    "price": 250000
+  },
+  {
+    "playerId": 9,
+    "playerImg": "https://i.ibb.co.com/PvctmSN5/alex.avif",
+    "playerName": "Alex Hales",
+    "playerCountry": "England",
+    "playingRole": "Batsman",
+    "rating": 4.7,
+    "preferredHand": "Right-hand",
+    "price": 170000
+  },
+  {
+    "playerId": 10,
+    "playerImg": "https://i.ibb.co.com/qYTbLLsx/nabi.webp",
+    "playerName": "Mohammad Nabi",
+    "playerCountry": "Afghanistan",
+    "playingRole": "All-rounder",
+    "rating": 4.8,
+    "preferredHand": "Right-hand",
+    "price": 180000
+  },
+  {
+    "playerId": 11,
+    "playerImg": "https://i.ibb.co.com/v6C6MV0R/quinton.webp",
+    "playerName": "Quinton de Kock",
+    "playerCountry": "South Africa",
+    "playingRole": "Wicketkeeper-Batsman",
+    "rating": 4.9,
+    "preferredHand": "Left-hand",
+    "price": 210000
+  }
+]
