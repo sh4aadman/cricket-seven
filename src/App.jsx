@@ -11,18 +11,30 @@ import Loading from "./components/ui/loading";
 
 function App() {
   const [value, setValue] = useState(true);
+  const [balance, setBalance] = useState(1500000);
+  const [selection, setSelection] = useState([]);
 
   return (
     <>
       <section className="container">
-        <Navbar />
+        <Navbar balance={balance} />
         <Hero />
         <Suspense fallback={<Loading />}>
-          <Selection value={value} setValue={setValue} />
+          <Selection
+            value={value}
+            setValue={setValue}
+            selectedPlayers={selection.length}
+          />
           {value === true ? (
-            <CardContainer playersPromise={playersPromise} />
+            <CardContainer
+              playersPromise={playersPromise}
+              balance={balance}
+              setBalance={setBalance}
+              selection={selection}
+              setSelection={setSelection}
+            />
           ) : (
-            <TileContainer />
+            <TileContainer selection={selection} />
           )}
         </Suspense>
       </section>

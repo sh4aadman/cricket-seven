@@ -1,10 +1,11 @@
-function Selection({ value, setValue }) {
-
+function Selection({ value, setValue, selectedPlayers }) {
   return (
     <>
       <section className="mt-24 flex items-center justify-between">
         <h2 className="text-3xl font-bold">
-          {value === true ? "Available Players" : "Selected Players(0)"}
+          {value === true
+            ? "Available Players"
+            : `Selected Players (${selectedPlayers}/7)`}
         </h2>
         <div className="flex items-center">
           <button
@@ -17,7 +18,7 @@ function Selection({ value, setValue }) {
             onClick={() => setValue(false)}
             className={`px-7 py-3.5 border border-l-0 rounded-r-2xl ${value === false ? "bg-[#e7fe29] border-[#e7fe29]" : "border-[#1313131A]"}`}
           >
-            Selected (0)
+            Selected ({selectedPlayers})
           </button>
         </div>
       </section>

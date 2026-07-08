@@ -1,6 +1,6 @@
 import logo from "../../assets/logo.png";
 
-function Navbar() {
+function Navbar({ balance }) {
   return (
     <nav className="flex justify-between">
       <img className="w-[5%]" src={logo} alt="logo" />
@@ -20,7 +20,7 @@ function Navbar() {
           </li>
         </ul>
         <section className="font-medium text-[#131313] border border-[#1313131A] px-5 py-4 rounded-xl">
-          <span className="mr-1 text-lg">0</span>
+          <span className="mr-1 text-lg">{balance}</span>
           <span className="text-lg">Coin</span>
           <i className="fa-solid fa-dollar-sign ml-2 p-1 border-2 rounded-full"></i>
         </section>

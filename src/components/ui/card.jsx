@@ -1,5 +1,6 @@
-function Card({ player }) {
+function Card({ player, balance, setBalance, selection, setSelection }) {
   const {
+    playerId,
     playerImg,
     playerName,
     playerCountry,
@@ -8,6 +9,18 @@ function Card({ player }) {
     preferredHand,
     price,
   } = player;
+
+  const isTrue = selection.some(p => p.playerId === playerId);
+
+  const handleClick = () => {
+    if (balance < price) {
+      alert("Not sufficient coins!");
+      return;
+    } else {
+      setBalance((b) => b - price);
+      setSelection((s) => [...s, player]);
+    }
+  };
 
   return (
     <section className="p-6 border border-[#1313131A] rounded-xl">
@@ -42,9 +55,13 @@ function Card({ player }) {
           <p className="text-[#13131380]">{preferredHand}</p>
         </div>
         <div className="flex justify-between">
-          <h4 className="font-bold">Price: ${price}</h4>
-          <button className="px-2.5 py-1 border rounded-md text-sm">
-            Choose Player
+          <h4 className="font-bold">Price: ${price} USD</h4>
+          <button
+            disabled={isTrue}
+            onClick={handleClick}
+            className="px-2.5 py-1 border rounded-md text-sm disabled:px-0 disabled:py-0 disabled:text-base disabled:text-[#13131380] disabled:border-0 disabled:cursor-not-allowed"
+          >
+            {isTrue ? "Selected" : "Select Player"}
           </button>
         </div>
       </section>
